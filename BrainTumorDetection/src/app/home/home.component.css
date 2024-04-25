@@ -1,0 +1,125 @@
+.navigation-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 15px 100px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.navigation-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navigation-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18PX;
+    font-weight: 500;
+}
+
+.navigation-img{
+    height: 48px;
+}
+.navigation-icon
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dee1e3a4;
+    height: 80vh;
+    padding: 1px 0 0 100px;
+    align-items: center;
+
+
+}
+
+.hero-container-title
+{
+    font-size:60px;
+    font-family:Lobster;
+    margin: 0;
+    line-height: 70px;
+}
+
+.hero-container-subtext{
+    font-size:  19px; 
+    font-weight: 450; 
+    line-height: 30px;
+    margin: 30px 0 0 0;
+}
+
+.hero-container-left
+{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;  
+    padding: 10px 0 0 40px;
+
+}
+
+.hero-container-button
+{
+    width: 80%;
+    padding: 15px;
+    height: 50px;
+    background-image: linear-gradient(to right, #FF76B4 , #67D8FF );
+
+
+}
+
+.hero-container-button:hover
+{
+    font-weight: 600;
+    background: white;
+}
+
+.services{
+    height: 100vh;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.services-left{
+    width: 37%;
+
+
+}
+
+.services-left-upload
+{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 90px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+label{
+    background-image: linear-gradient(to right, #FF76B4 , #67D8FF );
+    padding: 15px 80px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+.services-right{
+    width: 55%;
+    padding: 40px 0 0 0 ;
+}
+
+.services-right-bottom{
+    display: flex; justify-content: center; flex-direction: column;
+}
